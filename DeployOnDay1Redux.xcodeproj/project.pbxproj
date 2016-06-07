@@ -20,6 +20,7 @@
 		BD3B27C71BB1C0E50015D4B3 /* FISTicTacToeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B27C61BB1C0E50015D4B3 /* FISTicTacToeViewController.m */; };
 		BD3B27CA1BB1E8070015D4B3 /* FISNewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B27C91BB1E8070015D4B3 /* FISNewGameViewController.m */; };
 		BD3B27CE1BB1F4DF0015D4B3 /* FISGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B27CD1BB1F4DF0015D4B3 /* FISGameOverViewController.m */; };
+		BDC11B311D05BA8A008B9831 /* FISTicTacToeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B27B41BB199EF0015D4B3 /* FISTicTacToeGame.m */; };
 		D89B69CFD5673677B3ACDE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0190575E4CC89C02E44E98F5 /* main.m */; };
 		E3D5C2F18256C5CBB451A3BF /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ECC7FED6F09BC76F374BD4 /* FISAppDelegate.m */; };
 		F672084D3BD4072AC5FCD4E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB736C1BCFC331C9A0F4113 /* Foundation.framework */; };
@@ -452,6 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC11B311D05BA8A008B9831 /* FISTicTacToeGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

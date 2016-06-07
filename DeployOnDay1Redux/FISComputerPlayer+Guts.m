@@ -20,14 +20,14 @@ FISTicTacToePosition FISTicTacToePositionMake(NSUInteger column, NSUInteger row)
 {
     FISTicTacToePosition play = [self nextPlay];
 
-    if(![self.game canPlayAtColumn:play.column row:play.row]) {
+   if(![self.game canPlayAtColumn:play.column row:play.row]) {
         NSLog(@"Computer player tried to play at an invalid location (%lu, %lu), which is currently occupied with '%@'. Ignoring!", play.column, play.row, [self.game playerAtColumn:play.column row:play.row]);
 
         return;
     }
 
     // Arbitrary "thinking" delay
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+   dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         completion(play.column, play.row);
     });
 }
